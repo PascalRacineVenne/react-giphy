@@ -1,0 +1,12 @@
+import React, { Component } from 'react';
+
+class Gif extends Component {
+  render () {
+    const src = `https://i.giphy.com/media/${this.props.id}/200.gif`;
+    return (
+      <img src={src} className="gif" />
+    );
+  }
+}
+
+export default Gif;
