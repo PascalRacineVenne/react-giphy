@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     const gifs = [
       { id: "hrnD0PSI57M6Q" },
-      { id: "hrnD0PSI57M6Q" },
+      { id: "13UoiCY2pJSwZW" },
     ];
 
     return (
@@ -21,7 +21,7 @@ class App extends Component {
           </div>
         </div>
         <div className="right-scene">
-          <GifList gifs="gifs"/>
+          <GifList gifs={gifs} />
         </div>
       </div>
     );
